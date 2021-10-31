@@ -7,7 +7,7 @@ The dataset contains images of MRI segmentation and was uploaded to Kaggle by da
 
 ## To Use
 
-1. Download the dataset from the Kaggle page mentioned above.
+1. Download AlzNN.py and the dataset from the Kaggle page mentioned above.
 2. <b>Lines 38-35</b>: Uncomment this section of the code — this will save the numpy arrays to your device. <i> Comment this section of the code again after you run the program for the first time.</i>
 3. <b>Line 48</b>: Copy the paths of the <u>train</u> directory saved on your device and replace the current path. New code should be <code>with open('[train path].npy', 'rb') as f2:</code>
 4.  <b>Line 50</b>: Copy the paths of the <u>test</u> directory saved on your device and replace the current path. New code should be <code>with open('[test path].npy', 'rb') as f3:</code>  
